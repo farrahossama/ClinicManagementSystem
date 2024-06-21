@@ -1,16 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "typedef.h"
- // Include necessary headers for malloc
 
 void initialize_slots(slots *ptr_slot[]) {
     for (u8 i=0;i<SLOTS_NUMBER;i++){
         ptr_slot[i]=(slots*) malloc(sizeof(slots));
         if (ptr_slot[i] == NULL) {
-            fprintf(stderr, "Memory allocation failed.\n");
+            fprintf(stderr, "Memory allocation failed\n");
             exit(1); // Exit if allocation fails
         }
-        ptr_slot[i]->id=30; /*initializing ids more than MAX ID to not mess with data*/
+        ptr_slot[i]->id=MAX_ID; /*initializing ids more than MAX ID to not mess with data*/
         strcpy(ptr_slot[i]->status, "unreserved");
     }
 
