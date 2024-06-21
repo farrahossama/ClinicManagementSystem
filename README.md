@@ -36,49 +36,42 @@ Users can view their reserved slots for the day, if any.
 
 
 Project Structure
+
 Files and Functions
+
 admin.c
 
+
 Contains functions for admin mode functionalities like password verification, patient management, slot reservation, and cancellation.
+
 user.c
 
 Implements functionalities for user mode, including viewing patient data and reservations.
+
 new_patient.c
 
 Handles adding new patients to the system.
+
 edit_patient.c
 
 Allows admins to edit existing patient records.
+
 reserve.c
 
 Manages the reservation of slots for patients.
+
 cancel.c
 
 Handles the cancellation of reserved slots.
+
 typedef.h
 
 Defines data structures (patient and slots) and constants used throughout the project.
+
 funcs.h
 
 Declares all functions used in the project.
-Usage
-Prerequisites
-Ensure a C compiler (e.g., GCC) is installed on your system.
-Clone the repository containing the project files.
-Compilation and Execution
-Compile the project using the following command:
 
-Copy code
-gcc *.c -o clinic_management
-Execute the compiled program:
 
-bash
-Copy code
-./clinic_management
-Follow on-screen prompts to navigate through admin and user functionalities.
-
-Future Improvements
-Implement data persistence using file I/O to store patient records and reservations.
-Enhance user interface for better user experience and feedback.
 Contributors
-[Your Name or Username]
+Farah Ossama
