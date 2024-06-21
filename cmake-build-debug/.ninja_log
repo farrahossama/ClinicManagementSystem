@@ -1,0 +1,11 @@
+# ninja log v5
+219	438	7407019811832738	untitled1.exe	229d99ec8392a90
+3	397	7407039403168708	build.ninja	bf2a767b9901f9c3
+18	404	7407039454630840	CMakeFiles/ClinicManagementSystem.dir/main.c.obj	90a39c9d1fc3b323
+28	419	7407039454690773	CMakeFiles/ClinicManagementSystem.dir/admin.c.obj	b489e8889da9de4f
+1	435	7407039454800677	CMakeFiles/ClinicManagementSystem.dir/edit_patient.c.obj	21a3506ddbc9bf79
+407	717	7407039457747935	CMakeFiles/ClinicManagementSystem.dir/cancel.c.obj	5693e8dc20f05ead
+420	779	7407039458357369	CMakeFiles/ClinicManagementSystem.dir/user.c.obj	5ccc348b58620fd5
+436	781	7407039458287440	CMakeFiles/ClinicManagementSystem.dir/reserve.c.obj	afe1fb9ec273255a
+718	900	7407039459726076	CMakeFiles/ClinicManagementSystem.dir/new_patient.c.obj	43c1e50a97116480
+901	1148	7407039462073904	ClinicManagementSystem.exe	e9742c0904480780
