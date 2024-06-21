@@ -91,6 +91,12 @@ build CMakeFiles/ClinicManagementSystem.dir/user.c.obj: C_COMPILER__ClinicManage
   OBJECT_DIR = CMakeFiles\ClinicManagementSystem.dir
   OBJECT_FILE_DIR = CMakeFiles\ClinicManagementSystem.dir
 
+build CMakeFiles/ClinicManagementSystem.dir/InitializeSlots.c.obj: C_COMPILER__ClinicManagementSystem_Debug C$:/Users/Farah/CLionProjects/ClinicManagementSystem/InitializeSlots.c || cmake_object_order_depends_target_ClinicManagementSystem
+  DEP_FILE = CMakeFiles\ClinicManagementSystem.dir\InitializeSlots.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\ClinicManagementSystem.dir
+  OBJECT_FILE_DIR = CMakeFiles\ClinicManagementSystem.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ClinicManagementSystem
@@ -99,7 +105,7 @@ build CMakeFiles/ClinicManagementSystem.dir/user.c.obj: C_COMPILER__ClinicManage
 #############################################
 # Link the executable ClinicManagementSystem.exe
 
-build ClinicManagementSystem.exe: C_EXECUTABLE_LINKER__ClinicManagementSystem_Debug CMakeFiles/ClinicManagementSystem.dir/main.c.obj CMakeFiles/ClinicManagementSystem.dir/edit_patient.c.obj CMakeFiles/ClinicManagementSystem.dir/admin.c.obj CMakeFiles/ClinicManagementSystem.dir/new_patient.c.obj CMakeFiles/ClinicManagementSystem.dir/reserve.c.obj CMakeFiles/ClinicManagementSystem.dir/cancel.c.obj CMakeFiles/ClinicManagementSystem.dir/user.c.obj
+build ClinicManagementSystem.exe: C_EXECUTABLE_LINKER__ClinicManagementSystem_Debug CMakeFiles/ClinicManagementSystem.dir/main.c.obj CMakeFiles/ClinicManagementSystem.dir/edit_patient.c.obj CMakeFiles/ClinicManagementSystem.dir/admin.c.obj CMakeFiles/ClinicManagementSystem.dir/new_patient.c.obj CMakeFiles/ClinicManagementSystem.dir/reserve.c.obj CMakeFiles/ClinicManagementSystem.dir/cancel.c.obj CMakeFiles/ClinicManagementSystem.dir/user.c.obj CMakeFiles/ClinicManagementSystem.dir/InitializeSlots.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ClinicManagementSystem.dir
