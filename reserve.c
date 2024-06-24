@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<string.h>
 #include "typedef.h"
-#include "funcs.h"
+#include "headermain.h"
 
 void reserve(slots * ptr_slot[]) {
     extern patient *ptr_patients;
