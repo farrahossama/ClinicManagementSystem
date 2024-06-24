@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "typedef.h"
-#include "funcs.h"
+#include "headermain.h"
 
 void new_patient(void)
 {
