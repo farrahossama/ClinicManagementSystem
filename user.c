@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "typedef.h"
-#include "funcs.h"
+#include "headermain.h"
 void user(const slots * ptr_slot[]) {
     extern patient *ptr_patients;
     u8 k;                       /*user mode*/
