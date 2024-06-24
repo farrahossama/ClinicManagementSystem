@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include<string.h>
 #include "typedef.h"
+#include "headermain.h"
 #include "funcs.h"
 
 patient patients[MAX_ID];
