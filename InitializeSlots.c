@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include<string.h>
 #include "typedef.h"
+#include "headermain.h"
 
 void initialize_slots(slots *ptr_slot[]) {
     for (u8 i=0;i<SLOTS_NUMBER;i++){
