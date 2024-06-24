@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "typedef.h"
+#include "headermain.h"
 #include "funcs.h"
 
 void admin(slots * ptr_slot[])
