@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<string.h>
 #include "typedef.h"
-#include "funcs.h"
+#include "headermain.h"
 
 void cancel(slots * ptr_slot[]) {
     u8 i;                       /*for loop counter for slots number*/
